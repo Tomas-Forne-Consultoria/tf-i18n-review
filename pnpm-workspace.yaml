@@ -1,0 +1,10 @@
+packages:
+  - "."
+
+# esbuild ships its binary as an optional platform package; no install script needed.
+allowBuilds:
+  esbuild: false
+
+# Supply-chain cooldown: never resolve to a version published less than
+# 7 days ago.
+minimumReleaseAge: 10080

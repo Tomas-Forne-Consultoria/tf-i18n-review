@@ -1,0 +1,34 @@
+{
+  "Nav": {
+    "home": "Inicio",
+    "pricing": "Precios",
+    "login": "Entrar"
+  },
+  "Hero": {
+    "title": "Las leyes de Andorra, al día",
+    "subtitle": "Leemos cada boletín y te avisamos cuando afecta a tus clientes.",
+    "cta": "Empieza gratis",
+    "search": "Busca una ley o un artículo"
+  },
+  "Results": {
+    "count": "{count, plural, one {# resultado} other {# resultados}}",
+    "rich": "Lee las <b>condiciones</b> antes de empezar."
+  },
+  "Faq": {
+    "items": [
+      {
+        "q": "¿Qué es?",
+        "a": "Un buscador de leyes."
+      },
+      {
+        "q": "¿Cuánto cuesta?",
+        "a": "Hay un plan gratuito."
+      }
+    ]
+  },
+  "Footer": {
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "start": "Empieza gratis"
+  }
+}

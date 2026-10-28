@@ -1,0 +1,34 @@
+{
+  "Nav": {
+    "home": "Inici",
+    "pricing": "Preus",
+    "login": "Entra"
+  },
+  "Hero": {
+    "title": "Les lleis d'Andorra, al dia",
+    "subtitle": "Llegim cada butlletí i t'avisem quan toca els teus clients.",
+    "cta": "Comença gratis",
+    "search": "Cerca una llei o un article"
+  },
+  "Results": {
+    "count": "{count, plural, one {# resultat} other {# resultats}}",
+    "rich": "Llegeix les <b>condicions</b> abans de començar."
+  },
+  "Faq": {
+    "items": [
+      {
+        "q": "Què és?",
+        "a": "Un cercador de lleis."
+      },
+      {
+        "q": "Quant costa?",
+        "a": "Hi ha un pla gratuït."
+      }
+    ]
+  },
+  "Footer": {
+    "pricing": "Preus",
+    "contact": "Contacte",
+    "start": "Comença gratis"
+  }
+}

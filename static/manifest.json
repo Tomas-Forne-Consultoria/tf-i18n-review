@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "i18n Review",
+  "version": "0.1.0",
+  "description": "Review and edit an app's translations next to the UI that shows them.",
+  "action": { "default_title": "Review translations" },
+  "side_panel": { "default_path": "panel.html" },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["sidePanel", "scripting", "tabs"],
+  "host_permissions": ["http://localhost/*", "http://127.0.0.1/*"],
+  "optional_host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["http://localhost/*", "http://127.0.0.1/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

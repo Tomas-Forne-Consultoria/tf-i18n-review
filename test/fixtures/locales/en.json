@@ -1,0 +1,34 @@
+{
+  "Nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "login": "Log in"
+  },
+  "Hero": {
+    "title": "Andorra's laws, up to date",
+    "subtitle": "We read every bulletin and tell you when it affects your clients.",
+    "cta": "Start for free",
+    "search": "Search a law or an article"
+  },
+  "Results": {
+    "count": "{n, plural, one {# result} other {# results}}",
+    "rich": "Read the <b>terms</b> before you start."
+  },
+  "Faq": {
+    "items": [
+      {
+        "q": "What is it?",
+        "a": "A law search engine."
+      },
+      {
+        "q": "What does it cost?",
+        "a": ""
+      }
+    ]
+  },
+  "Footer": {
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "start": "Start for free"
+  }
+}
