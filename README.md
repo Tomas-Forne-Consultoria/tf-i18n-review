@@ -39,6 +39,17 @@ Works in Chromium browsers (Chrome, Edge, Arc, Brave). It runs on `localhost`
 and `127.0.0.1` out of the box. On any other site the panel offers **Enable
 on this site**, which asks Chrome for access to that site only.
 
+## Add markers to an app
+
+The [`i18n-review-markers`](skills/i18n-review-markers/SKILL.md) skill walks
+an agent through it: copy `src/protocol.ts`, wrap the app's catalogue loader
+behind an `I18N_INSPECT` flag, add a `dev:i18n` script and a regression test.
+To make it available in every project on a machine:
+
+```sh
+ln -s "$PWD/skills/i18n-review-markers" ~/.claude/skills/i18n-review-markers
+```
+
 ## Use it on Regest
 
 In the Regest repo:
@@ -104,6 +115,7 @@ seconds.
 | `build.mjs` | esbuild bundle into `dist/` |
 | `test/fixtures/locales/` | A small three-language catalogue for the tests |
 | `e2e/run.ts` | Drives the built extension in Chromium against a fixture app |
+| `skills/i18n-review-markers/` | Agent skill that adds the markers to an app |
 
 ## Development
 
